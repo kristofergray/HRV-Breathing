@@ -9,11 +9,11 @@ const exhaleTime = 4200;
 breatheAnimation();
 
 function breatheAnimation() {
-	text.innerText = 'Breathe In';
+	text.innerText = 'In Through the Nose';
 	container.className = 'container grow';
 
 	setTimeout(() => {
-		text.innerText = 'Breathe Out';
+		text.innerText = 'Out Through the Nose';
 		container.className = 'container shrink';
 	}, exhaleTime);
 }
